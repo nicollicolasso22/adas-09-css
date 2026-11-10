@@ -1,0 +1,116 @@
+
+/* seletor de tag <a...></a>*/
+a{
+    color: darkmagenta;
+    background-color: darkgray;
+}
+
+/*seletor de id=> <a id="link-google" */
+#link-google {
+    color: green;
+    background-color: greenyellow;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 5px;
+}
+
+#link-orkut {
+    color: darkblue;
+    background-color: lightpink;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 32px;
+    font-style: italic;
+}
+
+#link-google
+#link-orkut {
+    border-radius: 5px;    
+}
+/* Seletor de classe <img class="imagem-logo" */
+.imagem-logo {
+    height: 150px;
+}
+
+#imagem-gta6 {
+    height: 180px;
+}
+
+body{
+    background-color: rgb(47, 30, 30);
+}
+
+.button{
+    height: 25px;
+    color: #FFFFFF;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border-style: solid;
+}
+
+
+/* success, info, danger, warning, */
+.success {
+    background-color: #198754;
+    border-color: #198754;
+}
+
+.success:hover {
+    cursor: pointer;
+    background-color: #157347;
+    border-color: #146C43;
+}
+
+.primary {
+    background-color: #0d6efd;
+    border-color: #0d6efd;
+}
+
+.primary:hover {
+    cursor: pointer;
+    background-color: #0b5ed7;
+    border-color: #0a58ca;
+}
+
+.warning {
+    background-color: #ffc107;
+    border-color: #ffc107;
+}
+
+.warning:hover {
+    cursor: pointer;
+    background-color: #ffca2c;
+    border-color: #ffc720;
+}
+
+.danger {
+    background-color: #dc3545;
+    border-color: #dc3545;
+}
+
+.danger:hover {
+    cursor: pointer;
+    background-color: #bb2d3b;
+    border-color: #b02a57;
+}
+
+.animacao{
+    transition-duration: 1s;
+}
+
+.animacao-warning:hover{
+    transform: scaleY(1.2) scaleX(1.2);
+}
+
+.animacao-danger:hover{
+    transition-duration: 6s;
+    transform: rotate(360deg);
+}
+
+.animacao-success {
+    transform: translateX(120px) translateY(120px);
+}
+
+.animacao-success:focus {
+    transform: translateX(0px) translateY(0px);
+}
